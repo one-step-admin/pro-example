@@ -1,0 +1,1 @@
+import{_ as t}from"./index.vue_vue_type_script_setup_true_lang-C-TrEW4c.js";import{d as o,o as s,a0 as n,w as r,n as p,t as _}from"./index-CHZMnhJa.js";const l=o({__name:"index",props:{params:{}},setup(m){return(a,c)=>{const e=t;return s(),n(e,null,{default:r(()=>[p(" Params: "+_(a.params),1)]),_:1})}}});export{l as default};
