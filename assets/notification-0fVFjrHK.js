@@ -1,0 +1,1 @@
+import{co as c,r as e,Z as r}from"./index-C5ZTB46S.js";const u=c("notification",()=>{const o=e(0),t=e(0),n=r(()=>o.value+t.value);function a(){i(),s()}function i(){o.value=9}function s(){t.value=0}return{message:o,todo:t,total:n,init:a}}),d=u;export{d as u};

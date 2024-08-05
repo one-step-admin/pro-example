@@ -1,0 +1,1 @@
+import{_ as o}from"./index.vue_vue_type_script_setup_true_lang-DbZicpAk.js";import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o as c,c as a,w as n,g as r}from"./index-C5ZTB46S.js";const _={};function s(f,i){const e=o;return c(),a(e,null,{default:n(()=>[r(" 本窗口的宽度为 500px ")]),_:1})}const d=t(_,[["render",s]]);export{d as default};

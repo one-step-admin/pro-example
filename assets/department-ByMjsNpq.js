@@ -1,0 +1,1 @@
+import{cs as t}from"./index-C5ZTB46S.js";const s={list:e=>t.get("department/list",{params:e,baseURL:"/mock/"}),detail:e=>t.get("department/detail",{params:{id:e},baseURL:"/mock/"}),create:e=>t.post("department/create",e,{baseURL:"/mock/"}),edit:e=>t.post("department/edit",e,{baseURL:"/mock/"}),delete:e=>t.post("department/delete",{id:e},{baseURL:"/mock/"})};export{s as a};
