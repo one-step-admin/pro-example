@@ -1,0 +1,8 @@
+
+/**
+ * 由 One-step Console 提供技术支持
+ * Powered by One-step Console
+ * https://one-step-admin.hurui.me
+ */
+  
+import{At as e,Mr as t,Or as n,Ur as r,Ut as i,cr as a,dr as o,gt as s,ht as c,ir as l,lr as u,on as d,or as f,zr as p}from"./src-BGR5flJQ.js";import{g as m}from"./index-DXFkkAVR.js";import{t as h}from"./stage-Bv-HjIy6.js";import{t as g}from"./client-Dfvzj6n2.js";import{t as _}from"./detail_form-qybeeZ2z.js";var v=o({__name:`detail`,props:{id:{}},setup(o){g({title:`menu.standardModule.create`,style:`custom`});let v=o,y=h(),b=p(`formRef`);function x(){b.value?.submit().then(()=>{m.emit(`get-data-list`),S()})}function S(){y.removeWindow(`standard_module_example/detail`)}return(o,p)=>{let m=d,h=i,g=s,y=e,C=t(`ElCol`),w=t(`ElRow`),T=c;return n(),f(`div`,null,[u(y,{position:`top`,class:`p-0`},{default:r(()=>[u(g,{title:v.id?`编辑标准模块`:`新增标准模块`,class:`stage-window-handle mb-0 border-b-none cursor-grab active:cursor-grabbing`},{default:r(()=>[u(h,{variant:`outline`,size:`icon-sm`,class:`rounded-full`,onClick:S},{default:r(()=>[u(m,{name:`i-ep:close`})]),_:1})]),_:1},8,[`title`])]),_:1}),u(T,null,{default:r(()=>[u(w,null,{default:r(()=>[u(C,{md:24,lg:16},{default:r(()=>[(n(),l(_,{id:v.id,key:v.id,ref_key:`formRef`,ref:b},null,8,[`id`]))]),_:1})]),_:1})]),_:1}),u(y,{position:`bottom`,class:`flex-center gap-4`},{default:r(()=>[u(h,{onClick:x},{default:r(()=>[...p[0]||=[a(` 提交 `,-1)]]),_:1}),u(h,{variant:`outline`,onClick:S},{default:r(()=>[...p[1]||=[a(` 取消 `,-1)]]),_:1})]),_:1})])}}});export{v as default};

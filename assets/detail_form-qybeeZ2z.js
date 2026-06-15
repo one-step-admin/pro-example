@@ -1,0 +1,8 @@
+
+/**
+ * 由 One-step Console 提供技术支持
+ * Powered by One-step Console
+ * https://one-step-admin.hurui.me
+ */
+  
+import{$r as e,Ct as t,Mr as n,Nr as r,Or as i,Tr as a,Ur as o,Wr as s,dr as c,et as l,lr as u,or as d,si as f,zr as p}from"./src-BGR5flJQ.js";import{x as m}from"./index-DXFkkAVR.js";var h={list:e=>m.get(`standard_module/list`,{params:e,fake:!0}),detail:e=>m.get(`standard_module/detail`,{params:{id:e},fake:!0}),create:e=>m.post(`standard_module/create`,e,{fake:!0}),edit:e=>m.post(`standard_module/edit`,e,{fake:!0}),delete:e=>m.post(`standard_module/delete`,{id:e},{fake:!0})},g=c({__name:`index`,props:{id:{default:``}},setup(c,{expose:m}){let g=c,_=e(!1),v=p(`formRef`),y=e({id:g.id,title:``}),b=e({title:[{required:!0,message:`请输入标题`,trigger:`blur`}]});a(()=>{y.value.id!==``&&x()});function x(){_.value=!0,h.detail(y.value.id).then(e=>{_.value=!1,y.value.title=e.data.title}).catch(()=>{_.value=!1})}return m({submit(){return new Promise(e=>{v.value?.validate(t=>{t&&(y.value.id===``?h.create(y.value).then(()=>{l().success(`新增成功`),e()}):h.edit(y.value).then(()=>{l().success(`编辑成功`),e()}))})})}}),(e,a)=>{let c=t,l=n(`ElFormItem`),p=n(`ElForm`),m=r(`loading`);return s((i(),d(`div`,null,[u(p,{ref_key:`formRef`,ref:v,model:f(y),rules:f(b),"label-width":`120px`,"label-suffix":`：`},{default:o(()=>[u(l,{label:`标题`,prop:`title`},{default:o(()=>[u(c,{modelValue:f(y).title,"onUpdate:modelValue":a[0]||=e=>f(y).title=e,placeholder:`请输入标题`,class:`w-full`},null,8,[`modelValue`])]),_:1})]),_:1},8,[`model`,`rules`])])),[[m,f(_)]])}}});export{h as n,g as t};
