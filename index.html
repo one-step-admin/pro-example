@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One-step Console</title>
+    <script type="module" crossorigin src="./assets/index-CngQkKLg.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/src-JHitjWEY.js">
+    <link rel="modulepreload" crossorigin href="./assets/vue-i18n.runtime-C320Ct10.js">
+    <link rel="modulepreload" crossorigin href="./assets/cloneDeep-Dibct7Zv.js">
+    <link rel="modulepreload" crossorigin href="./assets/settings-66FAjP1N.js">
+    <link rel="modulepreload" crossorigin href="./assets/preload-helper-kNaey6uv.js">
+    <link rel="stylesheet" crossorigin href="./assets/src-COoE7QAC.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-CsM1URyi.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  <div data-app-loading style="position: fixed; top: 0; left: 0; z-index: 10000; width: 100vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; user-select: none;"><style>
+@keyframes rainbow {
+  0% { --rainbow-color: #00a98e; }
+  1.25% { --rainbow-color: #00a996; }
+  2.5% { --rainbow-color: #00a99f; }
+  3.75% { --rainbow-color: #00a9a7; }
+  5% { --rainbow-color: #00a9b0; }
+  6.25% { --rainbow-color: #00a9b8; }
+  7.5% { --rainbow-color: #00a9c0; }
+  8.75% { --rainbow-color: #00a8c7; }
+  10% { --rainbow-color: #00a8cf; }
+  11.25% { --rainbow-color: #00a7d5; }
+  12.5% { --rainbow-color: #00a6dc; }
+  13.75% { --rainbow-color: #00a6e2; }
+  15% { --rainbow-color: #00a4e7; }
+  16.25% { --rainbow-color: #00a3ec; }
+  17.5% { --rainbow-color: #00a2f1; }
+  18.75% { --rainbow-color: #00a0f4; }
+  20% { --rainbow-color: #009ff7; }
+  21.25% { --rainbow-color: #009dfa; }
+  22.5% { --rainbow-color: #009bfc; }
+  23.75% { --rainbow-color: #0098fd; }
+  25% { --rainbow-color: #0096fd; }
+  26.25% { --rainbow-color: #0093fd; }
+  27.5% { --rainbow-color: #2e90fc; }
+  28.75% { --rainbow-color: #4d8dfa; }
+  30% { --rainbow-color: #638af8; }
+  31.25% { --rainbow-color: #7587f5; }
+  32.5% { --rainbow-color: #8583f1; }
+  33.75% { --rainbow-color: #9280ed; }
+  35% { --rainbow-color: #9f7ce9; }
+  36.25% { --rainbow-color: #aa78e3; }
+  37.5% { --rainbow-color: #b574dd; }
+  38.75% { --rainbow-color: #be71d7; }
+  40% { --rainbow-color: #c76dd1; }
+  41.25% { --rainbow-color: #cf69c9; }
+  42.5% { --rainbow-color: #d566c2; }
+  43.75% { --rainbow-color: #dc63ba; }
+  45% { --rainbow-color: #e160b3; }
+  46.25% { --rainbow-color: #e65eab; }
+  47.5% { --rainbow-color: #e95ca2; }
+  48.75% { --rainbow-color: #ed5a9a; }
+  50% { --rainbow-color: #ef5992; }
+  51.25% { --rainbow-color: #f15989; }
+  52.5% { --rainbow-color: #f25981; }
+  53.75% { --rainbow-color: #f25a79; }
+  55% { --rainbow-color: #f25c71; }
+  56.25% { --rainbow-color: #f15e69; }
+  57.5% { --rainbow-color: #ef6061; }
+  58.75% { --rainbow-color: #ed635a; }
+  60% { --rainbow-color: #eb6552; }
+  61.25% { --rainbow-color: #e8694b; }
+  62.5% { --rainbow-color: #e46c44; }
+  63.75% { --rainbow-color: #e06f3d; }
+  65% { --rainbow-color: #db7336; }
+  66.25% { --rainbow-color: #d77630; }
+  67.5% { --rainbow-color: #d17a2a; }
+  68.75% { --rainbow-color: #cc7d24; }
+  70% { --rainbow-color: #c6811e; }
+  71.25% { --rainbow-color: #bf8418; }
+  72.5% { --rainbow-color: #b98713; }
+  73.75% { --rainbow-color: #b28a0f; }
+  75% { --rainbow-color: #ab8d0c; }
+  76.25% { --rainbow-color: #a3900b; }
+  77.5% { --rainbow-color: #9c920d; }
+  78.75% { --rainbow-color: #949510; }
+  80% { --rainbow-color: #8b9715; }
+  81.25% { --rainbow-color: #83991b; }
+  82.5% { --rainbow-color: #7a9b21; }
+  83.75% { --rainbow-color: #719d27; }
+  85% { --rainbow-color: #679e2e; }
+  86.25% { --rainbow-color: #5da035; }
+  87.5% { --rainbow-color: #51a13c; }
+  88.75% { --rainbow-color: #44a244; }
+  90% { --rainbow-color: #34a44b; }
+  91.25% { --rainbow-color: #1ba553; }
+  92.5% { --rainbow-color: #00a65b; }
+  93.75% { --rainbow-color: #00a663; }
+  95% { --rainbow-color: #00a76c; }
+  96.25% { --rainbow-color: #00a874; }
+  97.5% { --rainbow-color: #00a87d; }
+  98.75% { --rainbow-color: #00a985; }
+  100% { --rainbow-color: #00a98e; }
+}
+
+:root {
+  --rainbow-color: #00a98e;
+  --loader-size: 44px;
+  --box-size: 20px;
+  --box-offset: 24px;
+  --border-width: 4px;
+  animation: rainbow 20s linear infinite;
+}
+
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--rainbow-color);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  background-color: oklch(var(--background));
+}
+
+.loader {
+  width: var(--loader-size);
+  height: var(--loader-size);
+}
+
+.box1,
+.box2,
+.box3 {
+  border: var(--border-width) solid var(--rainbow-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+}
+
+.box1 {
+  width: var(--loader-size);
+  height: var(--box-size);
+  margin-top: var(--box-offset);
+  margin-left: 0px;
+  animation: abox1 4s forwards ease-in-out infinite;
+}
+
+.box2 {
+  width: var(--box-size);
+  height: var(--box-size);
+  margin-top: 0px;
+  margin-left: 0px;
+  animation: abox2 4s forwards ease-in-out infinite;
+}
+
+.box3 {
+  width: var(--box-size);
+  height: var(--box-size);
+  margin-top: 0px;
+  margin-left: var(--box-offset);
+  animation: abox3 4s forwards ease-in-out infinite;
+}
+
+@keyframes abox1 {
+  0% {
+    width: var(--loader-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: 0px;
+  }
+
+  12.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: 0px;
+  }
+
+  25% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: 0px;
+  }
+
+  37.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: 0px;
+  }
+
+  50% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: 0px;
+  }
+
+  62.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: 0px;
+  }
+
+  75% {
+    width: var(--box-size);
+    height: var(--loader-size);
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  87.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  100% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+@keyframes abox2 {
+  0% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  12.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  25% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  37.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  50% {
+    width: var(--loader-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  62.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: var(--box-offset);
+  }
+
+  75% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: var(--box-offset);
+  }
+
+  87.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: var(--box-offset);
+  }
+
+  100% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: var(--box-offset);
+  }
+}
+
+@keyframes abox3 {
+  0% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: var(--box-offset);
+  }
+
+  12.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: 0px;
+    margin-left: var(--box-offset);
+  }
+
+  25% {
+    width: var(--box-size);
+    height: var(--loader-size);
+    margin-top: 0px;
+    margin-left: var(--box-offset);
+  }
+
+  37.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: var(--box-offset);
+  }
+
+  50% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: var(--box-offset);
+  }
+
+  62.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: var(--box-offset);
+  }
+
+  75% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: var(--box-offset);
+  }
+
+  87.5% {
+    width: var(--box-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: var(--box-offset);
+  }
+
+  100% {
+    width: var(--loader-size);
+    height: var(--box-size);
+    margin-top: var(--box-offset);
+    margin-left: 0px;
+  }
+}
+
+.loading-container .name {
+  position: relative;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.loading-container .tips {
+  position: relative;
+  margin-top: 10px;
+  font-size: 16px;
+  opacity: 0.5;
+  line-height: 1.5;
+}
+
+.loading-container .tips::after {
+  position: absolute;
+  padding-left: 5px;
+  content: "…";
+}
+</style>
+
+<div class="loading-container">
+  <div class="loader">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+  </div>
+  <div class="name">One-step Console</div>
+  <div class="tips">载入中</div>
+</div>
+</div></body>
+</html>

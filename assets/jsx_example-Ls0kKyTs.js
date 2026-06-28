@@ -1,0 +1,8 @@
+
+/**
+ * 由 One-step Console 提供技术支持
+ * Powered by One-step Console
+ * https://one-step-admin.hurui.me
+ */
+  
+import{Kr as e,St as t,er as n,in as r,rn as i,rr as a,rt as o,tr as s}from"./src-JHitjWEY.js";import{t as c}from"./page-header-iPhwR5xG.js";import{J as l}from"./index-CngQkKLg.js";import{t as u}from"./client-Dfvzj6n2.js";var d=r(a({name:`JsxComp`,setup(){return()=>s(`div`,{class:`test`},[n(`这是一个用`),s(`span`,null,[n(`JSX`)]),n(`编写的SFC组件。`)])}}),[[`__scopeId`,`data-v-06ab7e6b`]]);u({title:`JSX`,icon:`i-file-icons:jsx`});var f=r(a({name:`JsxExample`,setup(){return()=>{let r=e([`i-file-icons:jsx`,`i-ep:element-plus`]).value.map(e=>s(i,{key:e,name:e,class:`example-icon`},null)),a=e(0);function u(e=1){a.value+=e}let f=s(`p`,null,[n(`这也是`),s(`i`,null,[n(`一段`)]),s(`b`,null,[n(`HTML`)]),n(`代码`)]);return s(`div`,null,[s(c,{title:`JSX`,content:`请查看本页面源码，更多 JSX 介绍请访问官网文档。`},null),s(o,null,{default:()=>[s(`div`,{class:`space-y-2`},[s(`p`,null,[n(`调用 FaIcon 组件`)]),s(`div`,{class:`space-x-2`},[r])]),s(l,null,null),s(`div`,{class:`space-y-2`},[s(`div`,{class:`test1`},[s(`div`,{class:`a`},null)]),s(`div`,{class:`test2`},[s(`div`,{class:`a`},null)])]),s(l,null,null),s(`div`,{class:`space-y-2`},[s(t,{onClick:()=>u(10)},{default:()=>[n(`点我：`),a.value]}),s(`div`,{innerHTML:`<p>这是<i>一段</i><b>HTML</b>代码</p>`},null),f]),s(l,null,null),s(d,null,null)]})])}}}),[[`__scopeId`,`data-v-7773e288`]]);export{f as default};

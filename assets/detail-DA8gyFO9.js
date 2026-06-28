@@ -1,0 +1,8 @@
+
+/**
+ * 由 One-step Console 提供技术支持
+ * Powered by One-step Console
+ * https://one-step-admin.hurui.me
+ */
+  
+import{$n as e,Fr as t,Mr as n,St as r,Xn as i,Zn as a,br as o,er as s,rn as c,rr as l,rt as u,tr as d}from"./src-JHitjWEY.js";import{t as f}from"./fixed-bar-aGkziaXt.js";import{t as p}from"./page-header-iPhwR5xG.js";import{l as m}from"./index-CngQkKLg.js";import{t as h}from"./stage-CD3QNrIH.js";import{t as g}from"./client-Dfvzj6n2.js";import{t as _}from"./detail_form-PJGfK8jz.js";var v={class:`max-w-4xl w-full`},y=l({__name:`detail`,props:{id:{}},setup(l){g({title:`menu.standardModule.create`,style:`custom`});let y=l,b=h(),x=n(`formRef`);function S(){x.value?.submit().then(e=>{e&&(m.emit(`get-data-list`),C())})}function C(){b.removeWindow(`standard_module_example/detail`)}return(n,l)=>{let m=c,h=r,g=p,b=f,w=u;return o(),e(`div`,null,[d(b,{position:`top`,class:`p-0`},{default:t(()=>[d(g,{title:y.id?`编辑标准模块`:`新增标准模块`,class:`stage-window-handle mb-0 border-b-none cursor-grab active:cursor-grabbing`},{default:t(()=>[d(h,{variant:`outline`,size:`icon-sm`,class:`rounded-full`,onClick:C},{default:t(()=>[d(m,{name:`i-ep:close`})]),_:1})]),_:1},8,[`title`])]),_:1}),d(w,null,{default:t(()=>[i(`div`,v,[(o(),a(_,{id:y.id,key:y.id,ref_key:`formRef`,ref:x},null,8,[`id`]))])]),_:1}),d(b,{position:`bottom`,class:`flex-center gap-4`},{default:t(()=>[d(h,{onClick:S},{default:t(()=>[...l[0]||=[s(` 提交 `,-1)]]),_:1}),d(h,{variant:`outline`,onClick:C},{default:t(()=>[...l[1]||=[s(` 取消 `,-1)]]),_:1})]),_:1})])}}});export{y as default};

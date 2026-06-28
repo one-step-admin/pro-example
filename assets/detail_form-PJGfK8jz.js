@@ -1,0 +1,8 @@
+
+/**
+ * 由 One-step Console 提供技术支持
+ * Powered by One-step Console
+ * https://one-step-admin.hurui.me
+ */
+  
+import{$n as e,Fr as t,Ir as n,Kr as r,Mr as i,Tr as a,V as o,_r as s,br as c,ot as l,rr as u,tr as d}from"./src-JHitjWEY.js";import{K as f,p,q as m}from"./index-CngQkKLg.js";var h={list:e=>p.get(`standard_module/list`,{params:e,fake:!0}),detail:e=>p.get(`standard_module/detail`,{params:{id:e},fake:!0}),create:e=>p.post(`standard_module/create`,e,{fake:!0}),edit:e=>p.post(`standard_module/edit`,e,{fake:!0}),delete:e=>p.post(`standard_module/delete`,{id:e},{fake:!0})},g=u({__name:`index`,props:{id:{default:``}},setup(u,{expose:p}){let g=u,_=r(!1),v=i(`formRef`),y=r({id:g.id,title:``}),b={title(e){return e?!0:`请输入标题`}};s(()=>{y.value.id!==``&&x()});function x(){_.value=!0,h.detail(y.value.id).then(e=>{_.value=!1,y.value.title=e.data.title}).catch(()=>{_.value=!1})}async function S(){return(await v.value?.validate())?.valid?(y.value.id===``?(await h.create(y.value),o().success(`新增成功`)):(await h.edit(y.value),o().success(`编辑成功`)),!0):!1}return p({submit:S}),(r,i)=>{let o=l,s=m,u=f,p=a(`loading`);return n((c(),e(`div`,null,[d(u,{ref_key:`formRef`,ref:v,model:y.value,"validation-schema":b,"label-placement":`right`,"label-width":120},{default:t(()=>[d(s,{name:`title`,label:`标题`,required:``},{default:t(()=>[d(o,{placeholder:`请输入标题`,class:`w-full`})]),_:1})]),_:1},8,[`model`])])),[[p,_.value]])}}});export{h as n,g as t};

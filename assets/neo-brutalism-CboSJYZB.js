@@ -1,0 +1,8 @@
+
+/**
+ * 由 One-step Console 提供技术支持
+ * Powered by One-step Console
+ * https://one-step-admin.hurui.me
+ */
+  
+import{$r as e,Fr as t,Xn as n,Zn as r,br as i,ii as a,rr as o,rt as s}from"./src-JHitjWEY.js";import{n as c}from"./vue-i18n.runtime-C320Ct10.js";import{t as l}from"./client-Dfvzj6n2.js";var u={class:`text-sm text-muted-foreground`},d={class:`text-sm font-mono font-semibold px-3 py-2 border rounded-md bg-muted inline-flex`},f=o({__name:`index`,setup(o){l({id:`window_example/style/neo-brutalism`,title:`menu.window.style.neoBrutalism`,style:`neo-brutalism`});let{t:f}=c();return(o,c)=>{let l=s;return i(),r(l,{"main-class":`space-y-3`},{default:t(()=>[n(`p`,u,a(e(f)(`description`)),1),n(`code`,d,a(e(f)(`value`)),1)]),_:1})}}});function p(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{description:{t:0,b:{t:2,i:[{t:3}],s:`这个窗口显式使用 neo-brutalism 风格，用粗描边、高对比度色块和硬阴影强调窗口外壳。`}},value:{t:0,b:{t:2,i:[{t:3}],s:`style: neo-brutalism`}}},"zh-tw":{description:{t:0,b:{t:2,i:[{t:3}],s:`這個窗口顯式使用 neo-brutalism 風格，以粗描邊、高對比度色塊和硬陰影強調窗口外殼。`}},value:{t:0,b:{t:2,i:[{t:3}],s:`style: neo-brutalism`}}},en:{description:{t:0,b:{t:2,i:[{t:3}],s:`This window explicitly uses the neo-brutalism style, emphasizing the shell with thick outlines, high-contrast color blocks, and hard shadow.`}},value:{t:0,b:{t:2,i:[{t:3}],s:`style: neo-brutalism`}}}}})}typeof p==`function`&&p(f);var m=f;export{m as default};

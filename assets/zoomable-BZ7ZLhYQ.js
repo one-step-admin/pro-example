@@ -1,0 +1,8 @@
+
+/**
+ * 由 One-step Console 提供技术支持
+ * Powered by One-step Console
+ * https://one-step-admin.hurui.me
+ */
+  
+import{$n as e,$r as t,Fr as n,Ir as r,Kr as i,St as a,Tr as o,Vr as s,Xn as c,at as l,br as u,er as d,ii as f,rr as p,rt as m,tr as h}from"./src-JHitjWEY.js";import{n as g}from"./vue-i18n.runtime-C320Ct10.js";import{t as _}from"./page-header-iPhwR5xG.js";import{t as v}from"./client-Dfvzj6n2.js";var y={class:`h-20 w-20 block`,src:`https://one-step-admin.hurui.me/logo.png`},b={class:`h-20 w-20 block`,src:`https://one-step-admin.hurui.me/logo.png`},x=p({__name:`zoomable`,setup(p){v({title:`menu.feature.zoomable`,icon:`i-mingcute:zoom-in-line`});let{t:x}=g(),S=i(!1);return(i,p)=>{let g=_,v=m,C=a,w=l,T=o(`zoomable`);return u(),e(`div`,null,[h(g,{title:t(x)(`menu.feature.zoomable`)},null,8,[`title`]),h(v,null,{default:n(()=>[r(c(`img`,y,null,512),[[T]])]),_:1}),h(v,null,{default:n(()=>[h(C,{onClick:p[0]||=e=>S.value=!0},{default:n(()=>[d(f(t(x)(`modal`)),1)]),_:1}),h(w,{modelValue:t(S),"onUpdate:modelValue":p[1]||=e=>s(S)?S.value=e:null,header:!1,footer:!1,"content-class":`min-h-auto`},{default:n(()=>[r(c(`img`,b,null,512),[[T]])]),_:1},8,[`modelValue`])]),_:1})])}}});function S(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{modal:{t:0,b:{t:2,i:[{t:3}],s:`在模态框中`}}},"zh-tw":{modal:{t:0,b:{t:2,i:[{t:3}],s:`在模態框中`}}},en:{modal:{t:0,b:{t:2,i:[{t:3}],s:`In modal`}}}}})}typeof S==`function`&&S(x);var C=x;export{C as default};
